@@ -23,7 +23,11 @@
                 }
             ],
             "preLaunchTask": "C/C++: gcc-9 build active file",
-            "miDebuggerPath": "/usr/bin/gdb"
+            "miDebuggerPath": "/usr/bin/gdb",
+            "env": {
+                // "LC_TIME": "uk_UA.utf8"
+                "LC_TIME": "he_IL.utf8"
+            }
         }
     ]
 }
